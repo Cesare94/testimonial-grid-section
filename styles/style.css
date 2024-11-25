@@ -1,0 +1,297 @@
+* {
+    box-sizing: border-box;
+    font-family: "Barlow Semi Condensed", sans-serif;
+
+    
+}
+
+body {
+    max-width: 1440px;
+   
+}
+
+.container {
+    display: grid;
+    grid: 'daniel daniel  jonathan kira'
+          'jeanette patrick patrick kira';
+
+    row-gap: 25px;
+    column-gap: 25px;
+    margin: 150px auto;
+    font-size: 13px;
+  
+    
+}
+
+.daniel .pattern img {
+    position: absolute;
+    top: 0;
+    right: 14%;
+    z-index: 1;
+    
+   
+}
+.daniel {
+    border: 1px solid black;
+    grid-area: daniel;
+    padding: 30px;
+    background-color:hsl(263, 55%, 52%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    position: relative;
+    
+    
+  
+    
+}
+
+
+.daniel .img{ 
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+.daniel .img img {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    margin-top: 3px;
+    border: 1px solid white;
+    
+
+    
+
+}
+
+.daniel .img b {
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 12px;
+   
+}
+
+.daniel .img b span {
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.daniel h2 {
+    z-index: 2;
+    position: relative;
+
+    
+}
+
+.daniel p {
+    font-size: 15px;
+    padding-top: 10px;
+    line-height: 20px;
+    
+}
+
+
+
+ .pattern img {
+    z-index: 1;
+    position: absolute;
+    margin-left: 200px;
+    
+}
+.jonathan{
+    border: 1px solid black;
+    grid-area: jonathan;
+    padding: 30px;
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+
+
+.jonathan .img{ 
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+.jonathan .img img {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    margin-top: 3px;
+    border: 1px solid white;
+
+    
+
+}
+
+.jonathan .img b {
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 12px;
+   
+}
+
+.jonathan .img b span {
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.jonathan p {
+    font-size: 19px;
+}
+
+.kira {
+    border: 1px solid black;
+    grid-area: kira;
+    padding: 30px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(219, 29%, 14%);
+    border-radius: 10px;
+}
+
+.kira .img{ 
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+.kira .img img {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    margin-top: 3px;
+    border: 1px solid white;
+
+    
+
+}
+
+.kira .img b {
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 12px;
+   
+}
+
+.kira .img b span {
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.kira p {
+    font-size: 19px;
+    padding-top: 10px;
+}
+
+
+
+.jeanette {
+    border: 1px solid black;
+    grid-area: jeanette;
+    padding: 30px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(219, 29%, 14%);
+    border-radius: 10px;
+}
+
+.jeanette .img{ 
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+.jeanette .img img {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    margin-top: 3px;
+    border: 1px solid white;
+
+    
+
+}
+
+.jeanette .img b {
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 12px;
+   
+}
+
+.jeanette .img b span {
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.patrick{
+    border: 1px solid black;
+    grid-area: patrick;
+    padding: 30px;
+    background-color:hsl(219, 29%, 14%);
+    color: hsl(0, 0%, 81%);
+    border-radius: 10px;
+}
+
+.patrick .img{ 
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+.patrick .img img {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    margin-top: 3px;
+    border: 1px solid white;
+
+    
+
+}
+
+.patrick .img b {
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 12px;
+   
+}
+
+.patrick .img b span {
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+
+@media screen and (max-width: 375px){
+   
+    body {
+        background-color: hsl(210, 46%, 95%);
+    }
+    .container {
+        width: 80%;
+        display: grid;
+        grid: 'daniel'
+              'jonathan'
+              'jeanette'
+              'patrick'
+                'kira';
+       margin: 40px auto;
+        
+    }
+    .daniel .pattern img {
+        position: absolute;
+        top: 0;
+        z-index: 1;
+        right: 10px;
+        
+       
+    }
+   
+}
+
